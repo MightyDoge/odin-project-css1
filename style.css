@@ -11,7 +11,7 @@ font-family: roboto;
     height:35em;
     width: 100%;
     background-color: #1f2937;
-    color:white;
+    color:#f9faf8;
     padding-top: 0.7em;
 }
 .navbar{
@@ -20,8 +20,8 @@ font-family: roboto;
     padding-bottom: 7.5rem;
 }
 .heading{
-    font-size: larger;
-    font-weight: 800;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .nav li{
@@ -31,23 +31,41 @@ padding: 0;
 display: inline;
 padding-right: 1.3em;
 font-weight: 400;
+font-size: 18px;
+color:rgb(154 159 167);
 }
 .mainArea{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     
 }
 
 .left1{
+   align-self: flex-start;
+   flex-basis: 30em;
    
-   flex-basis: 50em;
 }
 
 .left1 h1{
     font-size: 48px;
+    width: 95%;
+    color: #F9FAF8;
 }
 .left1 p{
-    flex-basis:10em;
+    width: 100%;
+    font-size: 18px;
+    color:rgb(154 159 167);
+    
+}
+
+.btn1{
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 10em;
+    height: 2em;
+    border: none;
+    margin-top: 20px;
 }
 
